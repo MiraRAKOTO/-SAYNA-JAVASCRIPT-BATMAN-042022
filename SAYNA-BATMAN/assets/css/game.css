@@ -1,0 +1,154 @@
+body{   
+    background-color: #000000;
+    background-image: url("../asset/img/game/Batgame1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 10% 0 10%;
+    position: relative;
+    
+}
+section{  
+    width: 80%;
+    margin: auto;
+    
+}
+.cadre{
+    position: absolute;
+    width: 79%;
+    height: 84%;
+    border-left: 4px solid #3a3636;
+    border-right: 4px solid #3a3636;
+}
+.module{
+    border-bottom: 4px solid #3a3636;
+}
+.module img{
+    width: 8%;
+    margin:  32px 32px 32px 110px;
+}
+.module h3{
+    float: right;
+    margin: 4%;
+    color: white;
+    align-items: center;
+
+}
+.fontleft p{
+    float: left;
+    margin: 4%;
+    color: white;
+    font-size: 4rem;
+    align-items: center;
+    line-height: .8;
+
+}
+
+.fontleft{
+    margin-right: -55px;
+    font-size: 3rem;
+    margin-top: 10rem;
+    float: left;
+} 
+
+ol{
+    text-align: center;
+    /* margin-left: 5rem; */
+    margin-top: 15%;
+    position: absolute;
+    right: 101px;
+    line-height: 4.3;
+}
+li{
+    list-style: none;
+}
+.fleche{
+    margin-top: 59%;
+    display: flex;
+    justify-content: center;
+}
+.blockJoux{
+    margin-top: 5%;
+    padding-left: 6%;
+}
+.blockJoux div{
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+.blockJoux div div{
+    margin-top: .5rem;
+}
+.blockJoux div p{
+    font-size: 23px;
+    color: #fff;
+}
+.blockJoux h2{
+    color: #fff;
+    padding: 5% 5% 5% 0;
+    font-size:1.5rem;
+}
+.blockJoux  div div p{
+    width: 20rem;
+    height: 25px;
+    margin-left: 12px;
+    margin-bottom: -27px;
+    background-color: #827c7c;
+    color: #fff; 
+    padding: 1px 0 0 1px;
+    font-size: 20px;
+}
+
+.demarer div {
+    width: 15;
+    text-align: center;
+    float: left;
+    margin-left: 6%;
+    height: 125%;
+}
+.demarer div img{
+    width: 90%;
+    height: 70%;
+}
+ .demarer div button{
+    background: -webkit-linear-gradient(left,#EDDEBF,#19587D);
+    color: #fff;
+    margin-top: 4%;
+    padding: 1%;
+    width: 373px;
+    height: 69px;
+    transform: 1s;
+
+}
+ .demarer div button:hover{
+    background: -webkit-linear-gradient(left,#EDDEBF,#890008);
+    transition: 1s;
+
+}
+ .demarer h1{
+    color: #fff;
+    font-size: 2rem;
+    margin: 22px 0 22px 0;
+}
+.footer .oto{
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    padding: 9% 4% 4% 21%;
+}
+.footer .oto img{
+    margin-top: 10px;
+    width: 3%;
+    height: 2%;
+}
+.footer .oto p{
+    color: #fff;
+    margin-left: 12px;
+}
+.footer .icone{
+    text-align: center;
+    width: 109%;
+    margin: 1% 0 3% 0;
+}
+.footer .icone img{
+    margin: 1%;
+    width: 31px;
+}
